@@ -1,24 +1,199 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 8</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 8 Kínder 1</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: El Gran Desfile de los Robots y sus Pasos Ordenados</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Entender el concepto de secuencia como "pasos en orden".</li>
+<li>Crear una secuencia visual simple de 2-3 pasos.</li>
+<li>Practicar el seguimiento de una secuencia visual.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Creación y ejecución exitosa de una secuencia visual de 2-3 pasos, demostrando comprensión del orden y la lógica.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Tarjetas grandes con dibujos de acciones simples (avanzar, girar, parar).</li>
+<li>Cinta adhesiva de color para marcar un camino en el suelo.</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos. Verifica tener las tarjetas de acciones (avanzar, girar, parar) y la cinta adhesiva de color.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad. Asegúrate de tener un espacio despejado en el suelo donde puedas marcar un camino y que permita a los niños moverse libremente. Puedes organizar las sillas en un semicírculo para la bienvenida y el cierre.</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Ten clara la historia o el reto que se presentará y cómo conectar cada actividad. Practica los diálogos para sentirlos naturales y divertidos.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Activando Nuestros Circuitos de Robot! ⏰ 5 min</h2>
+<p>¡Es hora de calentar motores y preparar nuestras mentes para la misión del día! Descubriremos cómo el orden nos ayuda en todo.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Ritual Mañanero de los Pequeños Programadores ⏰ 5 min</h3>
+<p> (Proyectar Diapositiva 1: Título de la Sesión "Pasos en Orden - Somos Robots Programadores"). Inicia la sesión dando una cálida bienvenida a los niños. Crea un ambiente de curiosidad y energía. Luego, cuéntales la historia de cómo se preparan por la mañana, enfatizando el orden de las acciones. Anímalos a participar y compartir sus propias experiencias. (Proyectar Diapositiva 2: Imágenes de una secuencia matutina: despertarse, estirarse, desayunar, cepillarse los dientes).</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, equipo de futuros ingenieros y programadores! ¡Qué gusto ver esas sonrisas llenas de energía! Hoy vamos a embarcarnos en una aventura increíble donde descubriremos un secreto muy importante. ¿Saben qué? Cada mañana, sin darnos cuenta, ¡somos como pequeños robots que siguen un programa! Piensen conmigo, ¿qué es lo primero que hacen al despertar? (Esperar respuestas, guiar: "abrir los ojos", "estirarse"). ¡Exacto! ¿Y después de estirarse, qué hacen antes de venir a la escuela? (Guía: "ir al baño", "desayunar", "cepillarse los dientes"). ¡Eso es! Nos levantamos, nos estiramos, nos cepillamos los dientes, desayunamos... ¡todo en un orden! Porque si intentamos desayunar antes de levantarnos de la cama, ¡sería un poco complicado, verdad? (Risas). ¡O si nos ponemos los zapatos antes de los calcetines! Hoy vamos a descubrir lo mágico que es seguir los pasos en orden. ¿Están listos para esta aventura de secuencias? ¡A la cuenta de tres, decimos: '¡Secuencia activada!' Uno, dos, tres... ¡SECUECIA ACTIVADA!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: El Misterio de las Tarjetas Mágicas ⏰ 10 min</h2>
+<p>Desvelaremos el secreto de cómo hablarle a nuestros amigos robots usando tarjetas especiales. ¡Es como un lenguaje secreto!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Decodificando el Lenguaje Robot ⏰ 10 min</h3>
+<p>(Proyectar Diapositiva 3: Muestra una tarjeta de "avanzar"). Introduce las tarjetas de acciones una por una: "avanzar", "girar", "parar". Explica que cada tarjeta es una "instrucción" para un robot. Anima a los niños a imitar la acción de cada tarjeta. Luego, guíalos para que entiendan la importancia del orden al crear una secuencia simple. (Proyectar Diapositiva 4: Muestra la secuencia "avanzar, parar" con flechas o imágenes secuenciales). Pide a un voluntario que actúe como "robot" y siga la secuencia que armen juntos. Pregunta: "¿Qué pasa si cambiamos el orden?".</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Excelente, exploradores de la secuencia! Ahora que sabemos que todo tiene un orden, les presento a nuestras nuevas amigas: ¡las tarjetas de acción! (Muestra la tarjeta de "avanzar"). Esta tarjeta significa 'avanzar'. ¿Podemos hacer todos como un robot que avanza? ¡Bip, bop, un paso adelante! (Muestra la tarjeta de "girar"). Esta es para 'girar'. ¡Hagamos todos un giro de robot! ¡Zzzzt, giramos! (Muestra la tarjeta de "parar"). Y esta es para 'parar'. ¡Congelados como robots! ¡Súper! Estas no son tarjetas cualquiera, ¡son como las palabras secretas que usan los robots para saber qué hacer! Si le decimos a un robot 'avanzar' (mostrar tarjeta), ¿qué creen que hará? ¡Exacto! ¿Y si le decimos 'parar'? (mostrar tarjeta) ¡Muy bien! Pero, ¿qué pasaría si nuestro robot quiere ir de aquí al pizarrón? ¿Le diríamos 'parar' primero? ¡Noooooo! Primero tiene que 'avanzar', ¿verdad? ¡Vamos a ver si podemos programar a nuestro amigo imaginario para que avance y luego se detenga! ¿Listos para ser los ingenieros más geniales de la galaxia? ¡A ver, yo soy el programador y tú eres el robot! Primero te muestro "avanzar", y luego "parar". ¡Hazlo, robot! (Observa al niño). ¡Fantástico! ¿Qué pasaría si te mostrara "parar" primero? ¿Llegarías al pizarrón? ¡Claro que no! Por eso el orden es muy importante.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡El Gran Desfile del Robot Bailarín! ⏰ 20 min</h2>
+<p>¡Es el momento de poner a prueba nuestras habilidades de programación! Cada uno será un robot o un programador, ¡y juntos haremos magia con los pasos!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Preparando la Pista del Robot ⏰ 5 min</h3>
+<p>(Proyectar Diapositiva 5: Imagen de un camino marcado con cinta en el suelo). Marca un camino sencillo en el suelo con cinta adhesiva de color. Puede ser una línea recta o con una curva suave. Explica las reglas del juego de forma clara y divertida: un niño será el 'robot' y otro el 'programador'. El programador usará las tarjetas de acciones para darle instrucciones al robot. Enfatiza que el robot debe seguir las instrucciones *exactamente* en el orden que el programador las muestre. Asegúrate de que todos entiendan los roles.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Wooooow! ¡Escuchen ese sonido! (Hacer sonidos de robot o poner música robótica suave). ¡Nuestros circuitos están zumbando de emoción! Es hora de pasar a la acción. ¡Vamos a transformar este espacio en la pista de baile de nuestros robots! (Señala el camino marcado con cinta). Este será nuestro camino de programación. Ahora, necesito un equipo de dos: ¿quién quiere ser el primer robot en desfilar? ¡Y quién será el programador más brillante que le dé las instrucciones? ¡Levanten la mano! (Forma parejas o tríos). Recuerden, ¡el programador le enseña las tarjetas al robot en el orden correcto, y el robot hace exactamente lo que ve! ¡Es como un baile secreto entre ustedes! Si el programador muestra 'avanzar', el robot avanza. Si muestra 'girar', el robot gira. ¡Y si muestra 'parar', el robot se detiene! ¡Prepárense para la diversión, equipo!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Programando Pasos y Movimientos ⏰ 15 min</h3>
+<p>(Proyectar Diapositiva 6: Ejemplos de secuencias visuales simples con flechas: avanzar-avanzar-girar-parar). Organiza a los niños en parejas o tríos. Mientras un niño es el 'robot' y otro el 'programador', un tercero puede ser el 'observador' o 'ayudante' y luego rotan roles. El 'programador' selecciona 2-3 tarjetas y se las muestra al 'robot' en orden. El 'robot' ejecuta la secuencia. Monitorea de cerca la actividad, asistiendo si es necesario. (Proyectar Diapositiva 7: Preguntas de apoyo: "¿Qué pasa si cambias el orden?", "¿Qué instrucción falta?"). Haz preguntas abiertas para fomentar la reflexión: "¿Qué pasa si pones 'girar' primero?", "¿Por qué crees que el robot no llegó a la meta?". Anima a la experimentación con diferentes secuencias. Asegúrate de que todos los niños tengan la oportunidad de ser tanto el 'robot' como el 'programador'.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Bip, bop, zzzzt! ¡Qué bien lo están haciendo! Veo a unos programadores súper concentrados y a unos robots que siguen cada instrucción al pie de la letra. ¡Bravo! ¡Recuerden ir turnándose para que todos puedan ser programadores y robots! Oigan, ¿qué pasa si cambiamos el orden de las tarjetas? ¿Creen que el robot haría lo mismo? Por ejemplo, si nuestro robot quiere llegar al otro lado, ¿qué pasa si le decimos "parar" antes de que se mueva? ¡Oh, no! ¡Se quedaría quieto! ¿Y si le añadimos una nueva instrucción, como 'girar', en medio de 'avanzar' y 'parar'? ¡Experimenten, mis pequeños genios! ¡Recuerden que cada movimiento cuenta y cada paso es parte de nuestra gran aventura de programación! ¡No dejen de animar a sus robots con sus mejores efectos de sonido! ¡Bip, bop, zummm! Si un robot se confunde, el programador puede mostrar las tarjetas más lento o repetir la secuencia. ¡Podemos hacerlo!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡Misión Cumplida y Circuitos Felices! ⏰ 5 min</h2>
+<p>Es hora de celebrar nuestros logros, compartir lo que aprendimos y darnos un gran aplauso por ser unos programadores ¡de primera!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Reflexionando sobre Nuestros Movimientos ⏰ 2 min</h3>
+<p>(Proyectar Diapositiva 8: Preguntas de reflexión: "¿Qué aprendimos hoy?", "¿Qué fue lo más divertido?", "¿Por qué es importante el orden?"). Reúne a los niños en círculo. Inicia una conversación abierta preguntando qué aprendieron, qué fue lo más divertido de la actividad, y si se dieron cuenta de la importancia del orden. Anima a que compartan sus experiencias como robots y programadores. Haz énfasis en los desafíos y cómo los superaron.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Alto, robots! ¡Alto, programadores! ¡Misión cumplida, equipo! ¡Felicidades, lo hicieron increíble! Ahora, quiero que me cuenten, ¿qué fue lo más divertido de ser un robot o un programador? (Esperar respuestas). ¿Alguien quiere compartir la secuencia más loca que crearon? ¿Hubo alguna vez que el robot se confundió? ¿Y por qué creen que se confundió? ¡Ah, sí! ¡Quizás el orden de las tarjetas no estaba claro! ¿Y qué pasaría si nuestro robot quisiera llegar a la puerta, pero el programador le da la instrucción de 'parar' primero? ¡Oh, oh! ¡No llegaría a ningún lado, verdad! ¡El orden es súper importante!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: El Poder del Orden ⏰ 3 min</h3>
+<p>(Proyectar Diapositiva 9: Ejemplos de secuencias en la vida diaria: vestirse, armar una torre de bloques, cocinar). Refuerza la importancia del orden en las secuencias, conectándolo con ejemplos de la vida diaria de los niños para que el aprendizaje sea significativo y aplicable. Haz que repitan "¡El orden es importante!" o una frase similar. Celebra sus logros como "programadores" y "robots" y dales un gran aplauso.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Así es! Hoy descubrimos que el orden es como una súper clave secreta para que las cosas funcionen bien. Como cuando nos vestimos (¡primero los calcetines, luego los zapatos!), o cuando construimos una torre de bloques (¡primero la base, luego los de arriba!). ¡Incluso cuando ayudamos a poner la mesa, primero los platos, luego los cubiertos! ¡Son unos genios de la secuencia! ¡Cada uno de ustedes es un programador estrella! Hoy aprendimos que para que nuestro robot llegue a donde queremos, ¡los pasos tienen que ir en el orden correcto! ¡Démonos un aplauso gigante por esta increíble aventura de robots y pasos ordenados! ¡Felicidades a todos! ¡Hasta la próxima misión, campeones!</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
